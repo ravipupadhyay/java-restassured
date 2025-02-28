@@ -40,6 +40,8 @@ public class CreateIssue {
 	@Test(dependsOnMethods = "createIssue")
 	public void sendAttachment() {
 		
+		
+		
 		RestAssured.baseURI="https://rpupadhyay014.atlassian.net";
 		String resp = given().header("X-Atlassian-Token","no-check").header("Authorization","").
 				multiPart("file", new File("C:\\Users\\upadhrx\\Pictures\\Screenshots\\Screenshot (1).png")).

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssuresJava.jiraAPIs.CreateIssue">
+      <class name="restAssuresJava.oAuth.OAuth">
         <methods>
-          <include name="createIssue"/>
-          <include name="sendAttachment"/>
+          <include name="oAuth"/>
         </methods>
-      </class> <!-- restAssuresJava.jiraAPIs.CreateIssue -->
+      </class> <!-- restAssuresJava.oAuth.OAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
